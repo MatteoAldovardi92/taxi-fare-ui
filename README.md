@@ -20,12 +20,11 @@ This is a simple Gradio-based web application that allows users to interact with
 ```bash
 .
 ├── app.py         # Gradio frontend application
-├── predict.py     # Wrapper around the Hugging Face endpoint
 ├── requirements.txt
 └── README.md
 ```
 
 ## 🛠️ Installation
 
-docker build -t taxi-fare-ui
+docker build -t taxi-fare-ui .
 docker run -p 8501:8501 taxi-fare-ui
