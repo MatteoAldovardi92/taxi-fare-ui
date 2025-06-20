@@ -1,0 +1,15 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Streamlit
+.streamlit/
+flagged/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Environment files
+.env
+*.env
